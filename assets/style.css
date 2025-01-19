@@ -211,6 +211,8 @@ body{
     }
     .sonDiv{
         display: block;
+        width: 50%;
+        right: 50px;
     }
     .cat {
         display: block;
