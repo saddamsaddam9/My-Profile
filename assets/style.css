@@ -236,9 +236,33 @@ body{
     font-size: 1.5rem;
     text-align: center;
 }
-/* @media (max-width:680px){
-    .cloud{
-        position: relative;
-        left: 10%;
+@media (max-width:480px){
+    .parent{
+        display: block;
+        text-align: center;
     }
-} */
+    .sonDiv{
+        display: block;
+    }
+    .cat {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        padding-bottom: 50px;
+    }
+    .chill{
+        display: block;
+        margin: auto;
+        width: 125px;
+        height: 120.5px;    
+    }
+    .head{
+        display: block;
+        text-align: center;
+    }
+    .description{
+        display: block;
+        text-align: center;
+    }
+}
