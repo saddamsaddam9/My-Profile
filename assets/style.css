@@ -86,66 +86,34 @@ body{
 }
 .parent{
     display: block;
-    position: relative;
-    right: 300px;
     text-align: center;
 }
 .parentch{
     display: block;
-    position: relative;
-    right: 300px;
     text-align: center;
 }
 .sonDiv{
-    /* position: relative; */
     display: inline-block;
-    /* right: 300px; */
+    right: 300px;
     width: 50%;
 }
-.sonDivch{
-    position: relative;
-    display: inline-block;
-    /* right: 300px;
-    width: 50%; */
-}
 .cat{
-    /* float: left; */
-    position: absolute;
+    float: left;
     margin-right: 20px;
-    /* width: 25%; */
-    left: 35%;
+    width: 250px;
+    height: 250px;
     padding-bottom: 50px;
 }
 .coding {
     padding-top: 20px;
 }
 .head{
-    /* display: inline; */
+    display: inline;
     line-height: 2;
-    position: absolute;
     font-size: 1.25rem; 
-    width: 20%;
-    left: 30%;
 }
 .description{
     display: inline;
-    position: absolute;
-    font-family: Montserrat, sans-serif;
-    font-size: 1.25rem;
-    color: aliceblue;
-    text-align: center;
-    /* text-indent: 30px; */
-    line-height: 2;
-}
-.headch{
-    display: inline;
-    line-height: 2;
-    position: absolute;
-    font-size: 1.25rem; 
-}
-.descriptionch{
-    display: inline;
-    position: absolute;
     font-family: Montserrat, sans-serif;
     font-size: 1.25rem;
     color: aliceblue;
