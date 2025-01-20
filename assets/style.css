@@ -90,30 +90,36 @@ body{
 }
 .parentch{
     display: block;
-    text-align: center;
+    /* text-align: center; */
 }
 .sonDiv{
-    display: inline-block;
-    right: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 60px;
+    align-items: center;
     width: 50%;
+    margin: auto;
 }
 .cat{
-    float: left;
-    margin-right: 20px;
+    /* float: left; */
+    /* margin-right: 20px; */
     width: 250px;
     height: 250px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .coding {
-    padding-top: 20px;
+    padding-top: 50px;
+    margin-left: -130px;
 }
 .head{
-    display: inline;
+    display: block;
+    padding-bottom: 50px;
     line-height: 2;
     font-size: 1.25rem; 
 }
 .description{
-    display: inline;
+    /* display: inline; */
     font-family: Montserrat, sans-serif;
     font-size: 1.25rem;
     color: aliceblue;
@@ -123,12 +129,16 @@ body{
 }
 
 .chill{
-    float: left;
+    /* float: left; */
     padding-top: 20px;
+    padding-bottom: 100px;
     padding-left: 50px;
     width: 125px;
     height: 120.5px;
     padding-right: 100px;
+}
+.codingch{
+    padding-top: 100px;
 }
 .contactme {
     display: block;
@@ -204,7 +214,7 @@ body{
     font-size: 1.5rem;
     text-align: center;
 }
-@media (max-width:680px){
+@media (max-width:580px){
     /* .parent{
         display: block;
         text-align: center;
