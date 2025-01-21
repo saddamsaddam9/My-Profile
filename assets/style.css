@@ -90,10 +90,6 @@ body{
     display: block;
     text-align: center;
 }
-.parentch{
-    display: block;
-    /* text-align: center; */
-}
 .sonDiv{
     display: flex;
     justify-content: center;
@@ -109,20 +105,18 @@ body{
     /* margin-right: 20px; */
     width: 250px;
     height: 250px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 .coding {
-    padding-top: 50px;
-    margin-left: -130px;
+    padding-top: 20px;
 }
 .head{
-    display: block;
-    padding-bottom: 50px;
+    display: inline;
     line-height: 2;
     font-size: 1.25rem; 
 }
 .description{
-    /* display: inline; */
+    display: inline;
     font-family: Montserrat, sans-serif;
     font-size: 1.25rem;
     color: aliceblue;
@@ -134,19 +128,15 @@ body{
 .chill{
     /* float: left; */
     padding-top: 20px;
-    padding-bottom: 100px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     width: 125px;
     height: 120.5px;
-    padding-right: 100px;
-}
-.codingch{
-    padding-top: 100px;
+    /* padding-right: 100px; */
 }
 .contactme {
     display: block;
     width: 40%;
-    margin: auto;
+    padding-left: 30%;
     padding-bottom: 100px;
 }
 .head-one-c{
