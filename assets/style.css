@@ -73,9 +73,11 @@ body{
     padding-top: 50px;
     font-family: Montserrat, sans-serif;
     font-weight: lighter;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: aliceblue;
     line-height: 1.8;
+    width: 30%;
+    padding-left: 35%;
 }
 /* ------------- PART-2 ---------------- */
 .skill{
@@ -93,13 +95,14 @@ body{
     /* text-align: center; */
 }
 .sonDiv{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 60px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 50%;
-    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30%;
+    padding-bottom: 20px;
+    width: 40%;
 }
 .cat{
     /* float: left; */
